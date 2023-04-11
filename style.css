@@ -85,3 +85,34 @@ button {
 .cart {
   margin-right: .5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: 96%;
+    margin: 2rem auto;
+  }
+
+  .desktop-image{
+    display: none;
+  }
+
+  .mobile-image {
+    display: inline-block;
+    width: 100%;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+  }
+
+  .product-info {
+    padding: 1.6rem;
+  }
+
+  .product-title {
+    inline-size: auto;
+  }
+
+  button {
+    padding: 1.1rem 0;
+  }
+}
