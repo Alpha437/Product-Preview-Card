@@ -82,6 +82,11 @@ button {
   justify-content: center;
 }
 
+button:hover {
+  background-color: hsl(159, 46%, 19%);
+  cursor: pointer;
+}
+
 .cart {
   margin-right: .5rem;
 }
